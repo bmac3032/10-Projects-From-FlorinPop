@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-family: 'Roboto'; 
+}
+
+header h1 {    
+    margin: 1em;    
+}
+
+#app {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    color: white;
+    background-color: coral;
+    border: none;
+    padding: .75em;
+    cursor: pointer;
+}
+
+.toast {
+    font-size: 1.25em;
+    background-color: palevioletred;
+    color: #fff;
+    height: 5vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+
+}
+
+#btn:hover {
+    opacity: 90%;
+}
