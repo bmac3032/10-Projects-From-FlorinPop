@@ -1,0 +1,86 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+/* Specific Styles */
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 1em;
+}
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Hamburger Menu Styles */
+
+
+
+button {
+    font-size: 1.25rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    padding: .75em;
+    cursor: pointer;
+}
+
+nav {
+    height: 100vh;
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+button.active {
+    transform: translateX(-123px);
+}
+
+nav, button {
+    transition: ease, .3s ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    padding: 2rem;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+li a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    
+    
+}
